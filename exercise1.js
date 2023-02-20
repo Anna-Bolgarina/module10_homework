@@ -1,4 +1,4 @@
-const value = +prompt("введите значение");
+let value = +prompt("введите значение");
 if (typeof value === "number" && !isNaN(value)) {
   if (value === 0) {
     console.log("это ноль");
